@@ -10,5 +10,5 @@ export default function debugScene(scene) {
             scene.add(helper)
         }
     })
-    console.log('🟣 Ayudantes de escena activados.')
+    console.log('Ayudantes de escena activados.')
 }
