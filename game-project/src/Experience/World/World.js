@@ -304,8 +304,8 @@ export default class World {
 
     const statusMsg =
       levelType === 3
-        ? "🏆 ¡Portal FINAL activado! Atraviésalo para completar el juego"
-        : "🌀 ¡Portal activado! Atraviésalo para avanzar";
+        ? "🏆 ¡Portal FINAL activado! Atraviésalo para completar el juego."
+        : "🌀 ¡Portal activado! Atraviésalo para avanzar.";
 
     if (this.experience.menu?.setStatus) {
       this.experience.menu.setStatus(statusMsg);
@@ -337,7 +337,7 @@ export default class World {
             typeof this.experience.menu.setStatus === "function"
           ) {
             this.experience.menu.setStatus(
-              "🎉 Puntaje guardado en el leaderboard"
+              "Puntaje guardado en el leaderboard"
             );
           }
         })
